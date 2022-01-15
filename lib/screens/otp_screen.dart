@@ -18,7 +18,7 @@ class _OTPScreenState extends State<OTPScreen> {
         child: Column(
           children: [
              Padding(
-              padding: const EdgeInsets.only(top: 50,left: 28,right: 450),
+              padding: const EdgeInsets.only(top: 40,left: 28,right: 450),
               child: IconButton(onPressed: (){
                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>const SignUpScreen()));
               }, icon: const Icon(Icons.arrow_back))
